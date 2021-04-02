@@ -1,0 +1,66 @@
+html{
+    background-image: url("MOAB_glide_bomb2.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-attachment: fixed;
+
+}
+
+a:link {
+    color:limegreen;
+}
+a:visited{
+    color:green;
+
+}
+
+p {
+  margin-top: 16px;
+  margin-bottom: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Barlow Condensed', sans-serif;}
+
+.fixed, .block {
+    font-family: 'Open Sans', sans-serif;
+    color: whitesmoke;
+    background-color: rgba(32, 32, 32, 1);
+    outline: thin;
+    outline-style: none;
+    outline-color: gray;
+    border: 0px;
+    border-left: 20px;
+    border-style: solid;
+    border-color: goldenrod;
+
+}
+.fixed {
+    position: fixed;
+    left: 50px;
+    top: 50px;
+    padding: 20px;
+
+}
+.block {
+
+    
+    position: relative;
+    left: 10%;
+    line-height:30px;
+    min-width: 500px;
+    max-width: 1000px;
+    justify-content: center;
+    margin: auto;
+    margin-top: 5%;
+    line-height: 1.8;
+    padding: 20px;
+
+    
+}
