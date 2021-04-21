@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html>
-<link rel="stylesheet" href=main.css>
-<meta name="viewport" content="width=500, initial-scale=1">
-<meta name="robots" content="noindex">
-
 <head>
+    <script type = "text/javascript" src = "HTMLImporter.js"></script>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=500, initial-scale=1">
+    <meta name="robots" content="noindex">
     <title>Sam for SMOAB</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href=main.css>
 </head>
 <body>
     
     <div class = fixed>
         <h2>This is an experimental page for deploying experimental features! Expect constant changes and broken features.</h2>
-        <script type = "text/javascript" src = "HTMLImporter.js">HTMLImporter("index.html");</script>
         <body onload="HTMLImporter('sidebar.html');">
+        <noscript>
+            <a href="sidebar.html"><h1>Noscript Sidebar Access</h1></a>
+        </noscript>
     </div>
     <div class = main>
 
