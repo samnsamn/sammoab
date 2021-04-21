@@ -1,8 +1,6 @@
 //taken from https://stackoverflow.com/questions/36387676/is-it-possible-to-reuse-html-like-a-template-on-multiple-pages
 
-function HTMLImporter(url) {
-
-  alert(url);
+async function HTMLImporter(url) {
 
   var error, http_request, load, script;
 
