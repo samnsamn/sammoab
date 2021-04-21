@@ -10,9 +10,16 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed&display=swap" rel="stylesheet">
     <link rel="stylesheet" href=main.css>
+
+    <style>
+        html,body        {height: 100%;}
+        .wrapper         {width: 80%; max-width: 600px; height: 100%; margin: 0 auto; background: #CCC}
+        .h_iframe        {position: relative; padding-top: 56%;}
+        .h_iframe iframe,  video{position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+    </style>
 </head>
 <body>
-    
+
     <div class = fixed>
         <body onload="HTMLImporter('sidebar.html');">
         <noscript>
@@ -21,21 +28,37 @@
     </div>
     <div class = main>
         <div class = block>
+
+
+
             <h1>Mental Health - Amogus Prevention</h1>
             <hr>
-            <iframe width="730" height="411" src="https://www.youtube-nocookie.com/embed/nFstpT_YTro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="wrapper">
+                <div class="h_iframe">
+                    <iframe width=720 height=411 src="https://www.youtube-nocookie.com/embed/nFstpT_YTro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
         </div>
         <div class = block>
             <h1>MCPS Meet the SMOB Candidates 2021</h1>
             <hr>
-            <iframe width="730" height="411" src="https://www.youtube-nocookie.com/embed/3bXaOjr8ISY" title="YouTube video player" framebrder="0" allow="acceleroometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="wrapper">
+                <div class="h_iframe">
+                    <iframe width=720 height=411 src="https://www.youtube-nocookie.com/embed/3bXaOjr8ISY" title="YouTube video player" framebrder="0" allow="acceleroometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
         </div>
         <div class = block>
             <h1>...except I made it more based</h1>
             <hr>
-            <video width="730" height="411" controls>
-                <source src="smoab-but-based.mp4" type="video/mp4">
-            </video>
+            <div class="wrapper">
+                <div class="h_iframe">
+                    <video width=720 height=411 controls>
+                        <source src="smoab-but-based.mp4" type="video/mp4">
+                    </video>                
+                </div>
+            </div>
+
         </div>
     </div>
 </div>
